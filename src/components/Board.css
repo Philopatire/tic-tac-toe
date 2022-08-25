@@ -1,0 +1,17 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  background-color: #000;
+  gap: 3px;
+  width: fit-content;
+  margin: 30px auto;
+}
+.board .board-square {
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

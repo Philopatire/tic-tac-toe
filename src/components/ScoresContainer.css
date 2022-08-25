@@ -1,0 +1,21 @@
+.scores-container {
+  display: flex;
+  justify-content: space-between;
+}
+.scores-container .score {
+  padding: 20px;
+}
+.scores-container .score .player-score {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.scores-container .score .name-field {
+  box-shadow: 1px 1px 1px 0 #ddd inset;
+  border: 1px solid #ddd;
+  padding: 8px 15px;
+  font-size: 15px;
+}
+.scores-container .score .name-field:focus {
+  box-shadow: 1px 1px 4px 0px #ddd inset;
+  outline: none;
+}
